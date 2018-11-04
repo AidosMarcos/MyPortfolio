@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+body {
+    font-family: "Dosis", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #777;
+    line-height: 1.6;
+}
+
+.background-img {
+    background-image: url('https://i.imgur.com/qepqori.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+.banner {
+    max-height: 650px;
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 28px;
+    text-decoration: none !important;
+}
+
+.navbar a {
+    color: #fff;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.navbar-toggler span {
+    color: #fff;
+}
+
+.toggler-black {
+    color: #000 !important;
+}
+
+.solid {
+    background-color: #fff;
+    transition: background-color 1s ease 0s;
+}
+
+.solid a {
+    color: #000000;
+}
+
+.nav-item .nav-link {
+    font-weight: 600;
+    line-height: 10px;
+    padding: 10px 0 10px 20px !important;
+}
+
+.navbar-right {
+    margin-left: auto;
+    text-align: right;
+}
+
+.has-overlay {
+    background: rgba(80, 80, 80, 0.60);
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.banner-content {
+    left: 0;
+    top: 50%;
+    width: 100%;
+    padding-top: 14em;
+    padding-bottom: 10em;
+    z-index: 2;
+}
+
+.banner-header {
+    color: #fff;
+    padding-bottom: 60px; 
+    margin: 0 auto;
+}
+
+.banner-header .intro-text {
+    font-size: 3.8em;
+}
+
+.banner-header .name {
+    border-bottom: 2px solid #fff;
+}
+
+.banner-header #typed-text {
+    font-size: 20px;
+    font-weight: 400;
+}
+.banner-buttons {
+    font-weight: 400;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.3333333;
+    text-decoration: none;
+}
+
+.banner-buttons a {
+    color: #fff
+}
+
+.banner-buttons .btn-more {
+    background-color: transparent;
+    border-color: #fff;
+    border-width: 6px;
+    border-radius: 0;
+    padding: 13px 30px;
+    margin-right: 10px;
+}
+
+.banner-buttons .btn-touch {
+    padding: 13px 30px;
+    background-color: #708090;
+    border:6px solid #708090;
+    border-radius: 0;
+}
+
+.banner-buttons .btn-touch:hover {
+    transition: .5s;
+    border-color: #777;
+}
