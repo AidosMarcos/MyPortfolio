@@ -13,6 +13,7 @@ body {
     background-image: url('https://i.imgur.com/qepqori.jpg');
     background-size: cover; 
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .banner {
@@ -101,7 +102,8 @@ body {
 
 .banner-header #typed-text {
     font-size: 20px;
-    font-weight: 400;
+    font-weight: bold;
+    color: #000000;
 }
 .banner-buttons {
     font-weight: 400;
@@ -161,4 +163,5 @@ body {
 
 .section-text {
     margin-top: 30px;
+    font-size: 20px;
 }
