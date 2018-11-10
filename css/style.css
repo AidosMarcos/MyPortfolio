@@ -138,8 +138,16 @@ body {
     border-color: #c72e2e;
 }
 
-.container-about {
-    margin-top: 4em;
+.section {
+    padding: 6em 0;
+}
+
+.section-social {
+    background-image: url('https://i.imgur.com/TC17fkD.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 4em 0;
 }
 
 .section-header {
@@ -153,6 +161,10 @@ body {
     padding-bottom: 15px;
 }
 
+.social-container{
+    margin: 0 auto;
+}
+
 .underline {
     width: 100px;
     height: 20px;
@@ -162,6 +174,50 @@ body {
 }
 
 .section-text {
+    margin: 30px auto 0 auto;
+    font-size: 19px;
+    line-height: 27px;
+    font-weight: 500;
+}
+
+.social-icons {
+    margin: 50px auto 0;
+    padding: 0;
+
+}
+
+.social-icons li {
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 30px;
-    font-size: 20px;
+    padding-left: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+.social-icons li a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    font-size: 33px;
+    color: #777;
+    border: 2px solid #777;
+    border-radius: 50%;
+}
+
+.social-icon li a:hover {
+    background-color: #777;
+    color: #fff;
+}
+
+.social-icon {
+    display: inline-block;
+    font-size: 32px;
+    text-align: center;
+    padding: 5px;
+}
+
+.social-icon i {
+    vertical-align: top;
+    padding-top: 7px;
 }
